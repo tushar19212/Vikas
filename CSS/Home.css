@@ -3,6 +3,13 @@ a{
 }
 body{
 	background-color: black;
+	color: white;
+	font-family: Helvetica neue, sans-serif;
+	position: relative;
+}
+.bodypadding{
+	padding: 1% 2%;
+	font-size: 130%;
 }
 .brnds{
 	height:100vh;
@@ -24,22 +31,21 @@ body{
 	background-color: #da2439;
 	color: white;
 	font-size: 170%;
-	position: absolute;
-	top: 40%;
 	left: 50%;
-	text-align: center;
+	position: absolute;
 	text-decoration: none;
+	top: 200%;
 	transform: translate(-50%,-50%);
 	width: 60%;
 }
 .contacts{
-	position: relative;
 	left: 8%;
+	position: relative;
 }
 div{
 	color: white;
-	text-align: left;
 	float: left;
+	text-align: left;
 }
 .email{
 	color: white;
