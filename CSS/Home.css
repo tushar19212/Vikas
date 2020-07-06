@@ -6,6 +6,9 @@ body{
 	color: white;
 	font-family: Helvetica neue, sans-serif;
 	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 .bodypadding{
 	padding: 1% 2%;
@@ -60,6 +63,33 @@ div{
 	display: inline-block;
 	text-align: center;
 	float: right;
+}
+
+form{
+	width: 100%;
+}
+input{
+	width: 100%;
+}
+textarea{
+	resize: vertical;
+	max-height: 100px;
+}
+
+input, textarea{
+	outline: none;
+	border: 1px solid #dddddd;
+}
+
+
+input:focus, textarea:focus{
+	box-shadow: 0 0 4px rgba(255,0,0,0.5);
+	border: 1px solid rgb(255,0,0);
+}
+
+::placeholder{
+	color: red;
+	opacity: 1;
 }
 h1{
 	color: 	#da2439;
