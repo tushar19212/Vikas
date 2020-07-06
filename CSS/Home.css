@@ -34,7 +34,7 @@ body{
 	left: 50%;
 	position: absolute;
 	text-decoration: none;
-	top: 200%;
+	top: 300%;
 	transform: translate(-50%,-50%);
 	width: 60%;
 }
