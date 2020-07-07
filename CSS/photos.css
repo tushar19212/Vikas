@@ -58,6 +58,30 @@ nav a{
 	font-size: 180%;
 	text-align: center;
 }
+@media only screen and (min-width:1500px)
+{
+    .container{
+        /* background-color: yellow; */
+        width: 24%;
+        margin: 1.5% 0.5%;
+    }
+    .description{
+        color: white;
+        display: none;
+    }
+    .gallery{
+        background-color: black;
+        border: none;
+    }
+    .gallery img{
+        transition: 1s ease;
+    }
+    .gallery img:hover{
+        opacity: 0.3;
+        /* border: 1px solid white; */
+    }
+}
+
 
 
 @media only screen and (max-width:1000px)
