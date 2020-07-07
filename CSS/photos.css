@@ -1,37 +1,59 @@
-*{
-    box-sizing: border-box;
-}
 a{
-	text-decoration: none;
+    text-decoration: none;
 }
 body{
-	background-color: black;
+    margin: 0;
+	padding: 0;
+    width: 100%;
+    background-color: black;
 	color: white;
 	font-family: Helvetica neue, sans-serif;
-	position: relative;
-    width: 99%;
-    /* padding: 1%; */
-    box-sizing: border-box;
 }
 .container{
-    padding: 0 6px;
-    float: left;
-    width: 25%;
-    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 70px auto ;
+    width: 1280px;
 }
-.gallery
-{
-    background-color: white;
-    border: 1px solid #ccc;
-    color: black;
+.container .box{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 200px;
+    margin: 10px;
+    position: relative;
+    width: 300px;
 }
-.gallery img{
-    width: 100%;
-    height: auto;
+.container .box .imgBox{
+    /* position: relative; */
+    overflow: hidden;
 }
-.description{
-    padding: 15px;
-    text-align: center;
+.container .box .imgBox img{
+    max-width: 100%;
+    width: 300px;
+    transition: transform 1s ease;
+}
+.container .box:hover .imgBox img{
+    transform: scale(1.08);
+}
+.container .box .details{
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.8);
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .box:hover .details{
+    opacity: 1;
+}
+.container .box:focus .details{
+    opacity: 1;
 }
 h1{
 	color: 	#da2439;
@@ -58,45 +80,19 @@ nav a{
 	font-size: 180%;
 	text-align: center;
 }
-@media only screen and (min-width:1500px)
-{
-    .container{
-        /* background-color: yellow; */
-        width: 24%;
-        margin: 1.5% 0.5%;
-    }
-    .description{
-        color: white;
-        display: none;
-    }
-    .gallery{
-        background-color: black;
-        border: none;
-    }
-    .gallery img{
-        transition: 1s ease;
-    }
-    .gallery img:hover{
-        opacity: 0.3;
-        /* border: 1px solid white; */
-    }
+nav a:hover{
+	transition: 1s ease;
+	color: 	#da2439;
 }
-
-
-
-@media only screen and (max-width:1000px)
-{
-    .container{
-        width: 50%;
-        margin: 6px 0;
-        float: right;
-    }
-}
-
 @media only screen and (max-width:700px)
 {
     .container{
-        width: 100%;
-        margin: 6px 0;
+        width: 700px;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    .container{
+        width: 500px;
     }
 }
