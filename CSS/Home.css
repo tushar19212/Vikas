@@ -67,6 +67,33 @@ div{
 	line-height: 35px;	
 }
 
+
+
+
+.container
+{
+	width: 100%;
+}
+.galleryfull{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.gallery{
+	width: 25%;
+	/* padding: 1% .5%; */
+	border: 1px solid #ccc;
+}
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+
+.description{
+	padding: 15px;
+	text-align: center;
+}
+
 .enquiry{
 	width: 21%;
 	height:400px;
