@@ -135,7 +135,11 @@ h1{
 	background-position: center;
 	background-repeat: no-repeat;
 }
-
+#map
+{
+	height: 500px;
+	width: 60%;
+}
 nav{
 	width: 100%;
 	background-color: white;
