@@ -201,3 +201,9 @@ video{
 	left: 50px;
 	box-shadow: white 0px 0px 10px;
 }
+@media screen and (max-width:1200px)
+{
+	.bodypadding{
+		padding: 2% 3%;
+	}
+}
