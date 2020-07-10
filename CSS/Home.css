@@ -82,14 +82,14 @@ div{
 	line-height: 35px;	
 }
 .enquiry{
-	width: 21%;
-	height:400px;
+	background-color:gray;
 	color: black;
-	background-color: white;
 	display: inline-block;
+	float: right;
+	height:400px;
 	padding: 2%;
 	padding-top: 0%;
-	float: right;
+	width: 21%;
 }
 form{
 	line-height: 30px;
@@ -136,16 +136,18 @@ h1{
 	background-repeat: no-repeat;
 }
 input{
+	background-color: rgb(106, 106, 118);
+	border: solid 1.5px black;
+	border-radius:3px;
+	transition: 1s ease-in;
+	transition: 0.5s ease-out;
 	width: 100%;
-
 }
-input:focus, textarea:focus{
-	box-shadow: 0 0 4px rgba(255,0,0,0.5);
-	border: 1px solid rgb(255,0,0);
+input:hover{
+	background-color: white;
 }
-input, textarea{
-	outline: none;
-	border: 1px solid #dddddd;
+input:focus{
+	border: none;
 }
 #map
 {
@@ -181,23 +183,28 @@ nav a:hover{
 	color: 	#da2439;
 	font: bold;
 }
-::placeholder{
-	color:gray;
-	text-align: center;
-	opacity: 0.5;
-}
 span{
 	color: white;
 }
-textarea{
-	position: relative;
-	top: 10px;
-	resize: vertical;
-	max-height: 100px;
+.submit{
+	margin: 0 auto;
+	width: 50%;
 }
 textarea{
-	width: 100%;
+	background-color: rgb(106, 106, 118);
+	border: solid 1.5px black;
+	border-radius:3px;
+	max-height: 100px;
+	position: relative;
+	resize: vertical;
+	transition: 1s ease-in;
+	transition: 0.5s ease-out;
+	top: 10px;
 	height: 75px;
+	width: 100%;
+}
+textarea:hover{
+	background-color: white;
 }
 video{
 	width: 60%;
