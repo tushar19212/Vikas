@@ -14,6 +14,45 @@ body{
 	padding: 1% 2%;
 	font-size: 130%;
 }
+
+.Brands{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: auto;
+	justify-content: center;
+	padding: 2%;
+	width: 96%;
+	margin-top: 5%;
+}	
+
+.Brands_Container
+{
+	border: #ccc dashed 1px;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s ease;
+	width: 300px;
+}
+.Brands_Container img{
+	transition: 0.5s ease;
+}
+.Brands_Container:hover .Brands_Description{
+	opacity: 1;
+}
+.Brands_Container:hover img{
+	opacity: 0;
+}
+.Brands_Description{
+	font-size: 200%;
+	opacity: 0;
+	position: absolute;
+	text-align: center;
+	top: 31px;
+	transition: 0.5s ease;
+	width: 100%;
+}
 .brnds{
 	height:100vh;
 	width: 20%;
