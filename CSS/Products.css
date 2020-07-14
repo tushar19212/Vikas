@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    font-family: Helvetica neue, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 103%; */
+}
+a{
+	text-decoration: none;
+}
+body{
+    background-color: #1e1e1e;
+    min-height: 900px;
+}
+.BODY{
+    background-color: black;
+}
+h1{
+	color: 	#da2439;
+	text-align: center;
+    margin:1%;
+    margin-top: 0;
+	font-size: 400%;
+	margin-bottom: 2%;
+	padding-top: 2%;
+}
+nav{
+	width: 100%;
+	background-color: white;
+	display: flex;
+}
+nav a{
+	box-sizing: border-box;
+	width: auto;
+	color: black;
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 180%;
+	text-align: center;
+}
+nav a:hover{
+	transition: 0.5s ease;
+	color: 	#da2439;
+	font: bold;
+}
+
+
+
+.ProductsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+.ProductsContainer .card{
+    
+    position: relative;
+    margin: 2%;
+    width: 300px;
+    height: 200px;
+}
+.ProductsContainer .card .face{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s ease-in-out;
+}
+
+.ProductsContainer .card .face.face1{
+    background: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform-origin: bottom;
+}
+.ProductsContainer .card .face.face1 h3{
+
+    margin: 10px 0 0;
+    /* padding: 1%; */
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.3em;
+}
+.ProductsContainer .card:hover .face.face1{
+    transform: translateY(-100%) rotateX(90deg);
+    background-color: red;
+
+}
+.ProductsContainer .card .face.face2{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* text-align: center; */
+    /* text-align: justify; */
+    padding: 20px;
+    transform-origin: top;
+    transform:translateY(100%) rotateX(90deg);
+}
+
+.ProductsContainer .card:hover .face.face2{
+    transform:translateY(0%) rotateX(0deg);
+
+}

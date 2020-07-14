@@ -9,6 +9,7 @@ body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	height: 100000px;
 }
 .bodypadding{
 	padding: 1% 2%;
@@ -20,8 +21,9 @@ body{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	height: auto;
+	height: 180px;
 	justify-content: center;
+	max-height: 200px;
 	padding: 2%;
 	width: 96%;
 	margin-top: 5%;
@@ -29,8 +31,10 @@ body{
 
 .Brands_Container
 {
-	border: #ccc dashed 1px;
+	/* border: #ccc solid 1px; */
 	display: inline-block;
+	height: auto;
+	margin: 1%;
 	position: relative;
 	transition: 0.5s ease;
 	width: 300px;
@@ -41,10 +45,8 @@ body{
 .Brands_Container:hover .Brands_Description{
 	opacity: 1;
 }
-.Brands_Container:hover img{
-	opacity: 0;
-}
 .Brands_Description{
+	display: none;
 	font-size: 200%;
 	opacity: 0;
 	position: absolute;
@@ -190,7 +192,7 @@ input:focus{
 }
 #map
 {
-	display: none;
+	/* display: none; */
 	height: 500px;
 	width: 60%;
 }
@@ -222,6 +224,31 @@ nav a:hover{
 	color: 	#da2439;
 	font: bold;
 }
+
+.Products
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #1e1e1e;
+	width: 100%;
+}
+
+.ProductsContainer img{
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
 span{
 	color: white;
 }
