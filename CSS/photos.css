@@ -15,6 +15,7 @@ body{
     flex-wrap: wrap;
     margin: 70px auto ;
     width: 1280px;
+    /* background-color: blue; */
 }
 .container .box{
     box-sizing: border-box;
