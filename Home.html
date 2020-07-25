@@ -3,6 +3,7 @@
 <head>
 	<title>Home | RV </title>
 	<link rel="stylesheet" type="text/css" href="CSS/Home1.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 	<a href="Home.html"><h1>Ramdeo Vinod Kumar</h1></a>
 	<nav>
 		<a href="Home.html">Home</a>
@@ -19,7 +20,7 @@
 	</div>
 
 	<div class="brnds">
-		<h2>Brands</h2>
+		<h3>BRANDS</h3>
 		<span>
 			<a href="https://www.raymond.in/home" target="_blank"> <img src="images/raymond.png" alt="raymond"> </a> 
 		</span>
@@ -76,37 +77,34 @@
 		</div>
 	</div>
 	<div class="right">
-		<h2>
-			From the Owner
-		</h2>
-		<p>
-			"		In 1947, Vinayak Rao tells his 14-year-old son Pandurang about the Goddess of Prosperity. She is the symbol of unlimited gold (wealth) and grains (food) and the earth is her womb. When the universe was created she gave birth to 160 million gods. Hastar, her first and most beloved offspring, was greedy for all her gold and food. Hastar managed to acquire the gold from the goddess but the other gods attacked him just as he was about to acquire her food, but the goddess saved him on the condition that he could never be worshipped and would be forgotten by history. For years, Hastar has been sleeping inside his mother's womb.In 1947, Vinayak Rao tells his 14-year-old son Pandurang about the Goddess of Prosperity. She is the symbol of unlimited gold (wealth) and grains (food) and the earth is her womb. When the universe was created she gave birth to 160 million gods. Hastar, her first and most beloved offspring, was greedy for all her gold and food. Hastar managed to acquire the gold from the goddess but the other gods attacked him just as he was about to acquire her food, but the goddess saved him on the condition that he could never be worshipped and would be forgotten by history. For years, Hastar has been sleeping inside his mother's womb.
-			"
-		</p>
-		<p id="ownername">
-			-Vishwanath Agarwal
-		</p>
-
-	</div>
-
-
-	
-
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+			  	<div class="swiper-slide"> 
+					<img src="From the owne/Letter.png" alt="">
+			 	</div>
+			  	<div class="swiper-slide">
+					<img src="From the owne/Letter.png" alt="">
+				</div>
+			  	<div class="swiper-slide">
+					<img src="From the owne/Letter.png" alt="">
+				</div>
+			 	<div class="swiper-slide">
+					<img src="From the owne/Letter.png" alt="">
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-button-next"></div>
+    		<div class="swiper-button-prev"></div>
+		</div>
+	</div>	
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<script>
-		function initMap()
-		{
-			var location={lat: -25.363, lng:131.044};
-			var map= new google.maps.Map(document.getElementById("map"),{
-				zoom: 4,
-				center: location
-			});
-			var marker= new google.maps.Marker({
-				position: location, 
-				map: map
-			});
-		}
+		var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
 	</script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeZBMTEKg-03lvKF-dLAbnE6mTcggvsP4&callback=initMap"></script>
-
 </body>
 </html>
