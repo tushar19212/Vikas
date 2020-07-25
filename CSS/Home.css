@@ -92,15 +92,26 @@ body{
 	left: 50%;
 	transform: translate(-50%,-50%);
 	width: 50%;
+<<<<<<< HEAD
 	background-color:#ccc;
+=======
+	background-color:green;
+>>>>>>> 087b6552b4240a65d491992a4856a610ff1124e2
 	padding: 2%;
 	padding-left: 5%;
 	padding-bottom: 2%;
 	color: black;
+<<<<<<< HEAD
 }
 .contactsContainer p{
 	font-size: 1.2em;
 }
+=======
+}
+.contactsContainer p{
+	font-size: 1.2em;
+}
+>>>>>>> 087b6552b4240a65d491992a4856a610ff1124e2
 .contactsContainer address{
 	position: relative;
 	left: 380px;
@@ -115,6 +126,7 @@ body{
 }
 .contactsContainer .fa-envelope{
 	color: #D44638;
+<<<<<<< HEAD
 }
 .contactsContainer .fa-phone{
 	color: #0e7468;
@@ -122,6 +134,15 @@ body{
 .contactsContainer .fa-instagram{
 	color:  #833ab4;
 }
+=======
+}
+.contactsContainer .fa-phone{
+	color: #0e7468;
+}
+.contactsContainer .fa-instagram{
+	color:  #833ab4;
+}
+>>>>>>> 087b6552b4240a65d491992a4856a610ff1124e2
 
 
 
@@ -239,7 +260,7 @@ nav{
 nav a{
 	box-sizing: border-box;
 	width: auto;
-	color: black;
+	color:black;
 	margin: auto;
 	margin-top: 1%;
 	margin-bottom: 1%;
