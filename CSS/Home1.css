@@ -533,7 +533,7 @@ video{
 	width: 70%;
 }
 
-@media screen and (max-width:1200px)
+@media screen and (max-width:1200px) and (min-width:1000px)
 {
 	.maskvideo{
 		min-height: 389px;
@@ -552,5 +552,3 @@ video{
 	}
 }
 
-	
->>>>>>> 087b6552b4240a65d491992a4856a610ff1124e2
