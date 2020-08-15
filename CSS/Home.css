@@ -88,15 +88,11 @@ body{
 
 .contactsContainer{
 	position: absolute;
-	top: 65%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	width: 50%;
 	background-color:#ccc;
-<<<<<<< HEAD
-=======
-	background-color:green;
->>>>>>> c32019369cc85e1678f0d37f2ab0975a3c04c4ad
 	padding: 2%;
 	padding-left: 5%;
 	padding-bottom: 2%;
@@ -105,14 +101,10 @@ body{
 .contactsContainer p{
 	font-size: 1.2em;
 }
-<<<<<<< HEAD
-=======
 
-}
 .contactsContainer p{
 	font-size: 1.2em;
 }
->>>>>>> c32019369cc85e1678f0d37f2ab0975a3c04c4ad
 .contactsContainer address{
 	position: relative;
 	left: 380px;
@@ -127,8 +119,7 @@ body{
 }
 .contactsContainer .fa-envelope{
 	color: #D44638;
-<<<<<<< HEAD
-=======
+
 }
 .contactsContainer .fa-phone{
 	color: #0e7468;
@@ -137,7 +128,6 @@ body{
 	color:  #833ab4;
 }
 
->>>>>>> c32019369cc85e1678f0d37f2ab0975a3c04c4ad
 }
 .contactsContainer .fa-phone{
 	color: #0e7468;
@@ -145,20 +135,6 @@ body{
 .contactsContainer .fa-instagram{
 	color:  #833ab4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .decrp{
 	background-color: antiquewhite;
@@ -351,14 +327,14 @@ video{
 	.maskvideo{
 		min-height: 382px;
 	}
-
+	
 	.contactsContainer address{
 		position: relative;
 		top: 20px;
 		left: 0;
 	}
 	.contactsContainer{
-		padding-bottom: 6%;
+		display: block;
 	}
 }
 
