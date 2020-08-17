@@ -25,7 +25,7 @@ body{
 	width: 55%;
 }
 .brnds img:hover{
-	width: 70%;
+	width: 60%;
 }
 .brnds img:focus{
 	width: 70%;
@@ -107,6 +107,7 @@ input:focus{
 	overflow: hidden;
 	padding-bottom: 50px;
 	float: left;
+	/* background-color: blue; */
 }
 .left h2{
 	width: 100%;
@@ -130,8 +131,6 @@ input:focus{
 .left figure img{
 	width: 20%;
 	float: left;
-
-
 }
 #logo{
 	width: 100%;
@@ -147,8 +146,8 @@ input:focus{
 	align-items: center;
 	justify-content: center;
 	width: 50%;
-	/* background-color: blue; */
-	min-height: 392px;
+	/* background-color: pink; */
+	min-height: 400px;
 }
 
 #mapid{ 
@@ -300,7 +299,6 @@ video{
 		left: -400%;
 	}
 }
-<<<<<<< HEAD
 
 
 
@@ -310,5 +308,3 @@ video{
 
     
 
-=======
->>>>>>> c32019369cc85e1678f0d37f2ab0975a3c04c4ad
